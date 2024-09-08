@@ -4,8 +4,16 @@
     position: fixed;
     z-index: 99999;
     top: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
     background-color: var(--white);
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.nav__container__item {
+    width: 100%;
+    padding: 0 5%;
+    align-items: center;
 }
 
 .nav__hamburger__container,
@@ -15,9 +23,6 @@
     align-items: center;
 }
 
-.ngo__name__container {
-    padding-left: 50px;
-}
 
 .ngo__logo__container {
     width: 20%;
@@ -33,7 +38,6 @@
 .nav__hamburger__container {
     flex: 1;
     justify-content: flex-end;
-    padding-right: 50px;
 }
 
 .hamburger__btn {
@@ -61,8 +65,13 @@
 .desk__btn {
     margin-left: 50px;
     padding: 15px 30px;
-    border-radius: 20px;
-    border: 2px solid var(--orange);
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--sage);
+}
+
+.donation__icon {
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,24 +94,12 @@
     }
 
     .hamburger__btn {
-        width: 100px;
-        height: 50px;
         border: none;
-        display: flex;
+        outline: none;
+        transition: all 0.5s ease;
         background-color: transparent;
     }
 
-
-    .hamburger__icon {
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        transition: 0.5s ease-in-out;
-    }
-
-    .hamburger__icon--active {
-        rotate: 90deg;
-    }
 
     .menu__container {
         display: none;
@@ -116,22 +113,35 @@
         height: 100vh;
         z-index: 100;
         top: 0;
+        margin-left: -5%;
+        align-items: center;
         justify-content: flex-start;
         background-color: var(--white);
+    }
+
+    .nav__menu__container--active .hamburger__active__support {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
     }
 
     .nav__menu__container--active .hamburger__btn {
         position: absolute;
         right: 0;
         top: 30px;
+        margin-right: 5%;
     }
+
+
 
     .nav__menu--active {
         display: flex;
         width: 100%;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
         height: calc(100vh - 120px);
     }
 
@@ -154,14 +164,50 @@
         color: #000;
     }
 
+
+
     .nav__menu__link {
         padding-left: 0 !important;
     }
 
     .desk__btn {
+        color: #ffffff !important;
         margin-left: 0 !important;
-        padding: 0 !important;
-        border-radius: 0 !important;
-        border: none !important;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px !important;
     }
+
+    .line {
+        width: 35px;
+        height: 3px;
+        margin: 5px;
+        transition: all 0.5s ease;
+        background-color: #000000;
+    }
+
+    .line--active.hamburger__btn {
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    .line--active #line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .line--active #line2 {
+        display: none;
+    }
+
+    .line--active #line3 {
+        transform: rotate(45deg) translate(-3px, -4px);
+    }
+
+
 }

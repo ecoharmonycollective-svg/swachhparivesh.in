@@ -1,6 +1,6 @@
 .founder__card {
     width: 100%;
-    height: 100%;
+    height: 300px;
 }
 
 .founder__card__img__container {
@@ -19,6 +19,11 @@
     width: 60%;
     font-size: 18px;
     padding-left: 20px;
+    align-items: flex-start !important;
+}
+
+.founder__card__name {
+    padding-top: 10px;
 }
 
 .quote__img {
@@ -29,4 +34,24 @@
 .founder__card__desc {
     font-size: 22px;
     font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .founder__card {
+        padding: 0 20px;
+        height: fit-content;
+        flex-direction: column !important;
+    }
+
+    .founder__card__img__container {
+        width: 100%;
+        height: 250px;
+    }
+
+    .founder__card__content {
+        width: 100%;
+        padding-left: 0;
+        text-align: justify;
+        align-items: flex-start !important;
+    }
 }

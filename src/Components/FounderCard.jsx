@@ -7,7 +7,7 @@ export default function Founder({ image, name, desc, position, about }) {
       <div className="founder__card__img__container">
         <img src={image} className="founder__card__img" alt={name} />
       </div>
-      <div className="founder__card__content">
+      <div className="founder__card__content col cent">
         <p className="founder__card__desc">
           <b>
             <img src={Quote} className="quote__img" alt="Quote Sign" />

@@ -23,8 +23,6 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/media" element={<Media />} />
         <Route path="/donation" element={<Donation />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
       <Whatsapp />

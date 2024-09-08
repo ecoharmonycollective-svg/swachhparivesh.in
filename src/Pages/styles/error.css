@@ -2,3 +2,40 @@
     width: 100%;
     height: calc(100vh - 120px);
 }
+
+/* .error__img {
+    width: ;
+} */
+
+@media screen and (max-width: 768px) {
+    .error__img {
+        width: 350px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .error__img {
+        width: 60%;
+    }
+
+}
+
+.error__content {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.error-header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.goHome {
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: var(--sage);
+}

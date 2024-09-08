@@ -1,24 +1,24 @@
 const indexPage = {
-    title: 'Home',
-    description: 'This is the home page',
-    keywords: 'home, page, website'
+    title: 'Swachh Parivesh Foundation | Empowering Communities',
+    description: "Discover Swachh Parivesh Foundation's initiatives in education, environment, health, and heritage preservation. Join us in making a positive impact today.",
+    keywords: 'Swachh Parivesh, NGO, Uttarakhand, India, education, environment, health, heritage preservation'
 }
 const donatePage = {
-    title: 'Donate',
-    description: 'This is the donate page',
-    keywords: 'donate, page, website'
+    title: "Donate | Support Swachh Parivesh Foundation's Causes Today",
+    description: "Support Swachh Parivesh Foundation's initiatives in education, environment, and community health. Donate today to make a lasting difference.",
+    keywords: 'Swachh Parivesh, gallery, ngo, donate, donation'
 }
 const galleryPage = {
     title: 'Gallery',
-    description: 'This is the gallery page',
-    keywords: 'gallery, page, website'
+    description: "Stay updated with Swachh Parivesh Foundation's latest news, events, and initiatives. Explore our media gallery and press releases.",
+    keywords: 'Events, Gallery, Swachh Parivesh Foundation'
 }
 const mediaPage = {
-    title: 'Media',
-    description: 'This is the media page',
-    keywords: 'media, page, website'
+    title: 'Media | Swachh Parivesh Foundation - News, Updates, and Events',
+    description: "Stay updated with Swachh Parivesh Foundation's latest news, events, and initiatives. Explore our media gallery and press releases.",
+    keywords: 'News, Events, Media, Press Releases, Swachh Parivesh Foundation'
 }
-export {
+export default {
     indexPage,
     donatePage,
     galleryPage,

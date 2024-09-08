@@ -1,15 +1,20 @@
 .footer__container {
     width: 100%;
     height: fit-content;
-    padding: 50px 0 0 0;
     font-size: 18px;
-    color: var(--white);
-    background-color: var(--sage);
+    color: var(--gray);
+    border-top: 5px solid var(--green);
+    background-color: var(--rich-black);
+}
+
+.footer__container a {
+    color: var(--gray);
 }
 
 .footer__grp__container {
     width: 95%;
     flex-wrap: wrap;
+    padding: 100px 0 50px 0;
 }
 
 .footer__items {
@@ -55,8 +60,8 @@
 }
 
 .quick__links {
-    font-weight: 600;
-    margin: 20px 0;
+    display: inline-block;
+    margin: 5px 0;
     color: var(--white);
     text-align: center;
     text-decoration: none;

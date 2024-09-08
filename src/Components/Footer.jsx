@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./styles/footer.css";
-import NGOLogo from "../assets/NGO_Logo.png";
 import Facebook from "../assets/facebook.svg";
 import Instagram from "../assets/instagram.svg";
 function Footer() {
@@ -8,19 +7,6 @@ function Footer() {
   return (
     <div className="footer__container col cent">
       <div className="footer__grp__container row">
-        <div className="footer__items col cent">
-          <img
-            className="footer__ngo__logo"
-            src={NGOLogo}
-            alt="Swachh Parivesh Foundation"
-          />
-          <p className="short__desc">
-            Swachh Parivesh Foundation is a non-profit organization that is
-            working towards a cleaner environment. We are dedicated to
-            protecting the environment and making it a better place for future
-            generations.
-          </p>
-        </div>
         <div className="footer__items footer__address col">
           <h3 className="address__header">Contact Us</h3>
           <p>
@@ -111,7 +97,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Xorblin Pvt. Ltd.
+            Xorblin Digital Pvt. Ltd.
           </a>
         </p>
       </div>

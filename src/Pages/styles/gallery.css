@@ -1,0 +1,48 @@
+.gallery__container,
+.media__banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.gallery__container__img,
+.media__banner__img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.gallery__overlay,
+.media__overlay {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+}
+
+.gallery__container__text,
+.media__banner__text {
+    width: 90%;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .gallery__container,
+    .media__banner {
+        height: 200px;
+    }
+
+    .gallery__container__text,
+    .media__banner__text {
+        font-size: 25px;
+    }
+}
