@@ -38,6 +38,7 @@ function Navigation() {
               alt="Swachh Parivesh NGO"
             />
           </Link>
+          <h1 className="text__logo">Swachh Parivesh</h1>
         </div>
         <div
           className="nav__hamburger__container row"

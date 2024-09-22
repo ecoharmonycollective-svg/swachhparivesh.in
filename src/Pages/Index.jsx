@@ -67,7 +67,7 @@ export default function Home() {
               <div className="story__content__container">
                 <p>
                   Swachh Parivesh Foundation is a registered trust established
-                  in 2018 for the welfare of the community. The trust is a young
+                  in 2019 for the welfare of the community. The trust is a young
                   organization run by enthusiastic persons who have come
                   together for a common goal. They are from all field of life
                   and some of them are volunteering for the love of the hills.
