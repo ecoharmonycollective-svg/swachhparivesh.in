@@ -33,26 +33,25 @@ export default function Home() {
         <div className="index__content__container row">
           <div className="index__content__img__item index__img__1">
             <div className="index__content__img__overlay"></div>
-            <img className="index__content__img" src={GirlsImg} alt="" />
+            <img className="index__content__img" src={GirlsImg} alt="Sustainable Living" />
           </div>
           <div className="index__content__item">
             <div className="index__content__box">
               <h1>
-                Help us to make a difference in the lives of underprivileged
+                Sustainable Living Starts Here - Eco-Friendly Products for Your Home & Office
               </h1>
             </div>
             <div className="index__content__small__img__container">
               <div className="index__content__small__img__overlay"></div>
               <img
                 src={SmallChildImg}
-                alt="small children"
+                alt="Green initiatives"
                 className="index__content__small__img"
               />
             </div>
           </div>
         </div>
       </div>
-
       <div className="story__container cent">
         <div className="story__item__box row">
           <div className="story__item story__item__content__container cent">
@@ -60,27 +59,19 @@ export default function Home() {
               <div className="story__item__header row">
                 <div className="border__left"></div>
                 <div className="border__center">
-                  <p>Our Story</p>
+                  Our Story
                 </div>
                 <div className="border__right"></div>
               </div>
               <div className="story__content__container">
                 <p>
-                  Swachh Parivesh Foundation is a registered trust established
-                  in 2019 for the welfare of the community. The trust is a young
-                  organization run by enthusiastic persons who have come
-                  together for a common goal. They are from all field of life
-                  and some of them are volunteering for the love of the hills.
-                  The involvement implemented by the Foundation range from grass
-                  root level projects to national-level programs. The trust
-                  works towards empowering lives and serving to the needs of all
-                  sectors of the society.
+                  EcoHarmonyCollective was founded with a simple mission: to make sustainable living accessible and affordable for everyone. We believe that small changes in our daily lives can create a significant positive impact on our planet. Our carefully curated collection of eco-friendly products combines functionality, style, and environmental responsibility. From recycled materials to energy-efficient solutions, every product we offer is selected with the earth in mind. Join us in creating a greener future, one conscious choice at a time.
                 </p>
               </div>
             </div>
           </div>
           <div className="story__item story__img__container cent">
-            <img className="story__img" src={AboutImg} alt="About Img" />
+            <img src={AboutImg} alt="About EcoHarmonyCollective" className="story__img" />
           </div>
         </div>
       </div>
@@ -90,31 +81,24 @@ export default function Home() {
             <div className="mv__item cent__col">
               <h2 className="mv__item__header">Our Mission</h2>
               <p className="mv__item__para">
-                Our mission is to provide comprehensive education and support
-                for underprivileged children/women, promote environmental
-                conservation, enhance community health and livelihoods, and
-                preserve national heritage, art, and culture through diverse
-                initiatives and programs.
+                To provide high-quality, eco-friendly products that empower individuals and businesses to make sustainable choices. We're committed to reducing environmental impact through innovative, responsibly-sourced home and office solutions that don't compromise on quality or design.
               </p>
             </div>
             <div className="mv__item cent__col">
               <h2 className="mv__item__header">Our Vision</h2>
               <p className="mv__item__para">
-                Trust works towards the empowerment of the community, health,
-                sanitation, environment, education, and sustainable livelihood
-                to enhance the quality of life of individuals residing in our
-                country.
+                A world where sustainable living is the norm, not the exception. We envision homes and workplaces filled with products that harmonize with nature, promoting wellness, reducing waste, and inspiring others to join the green movement for generations to come.
               </p>
             </div>
           </div>
         </div>
       </div>
-      {/* Founder */}
+      {/* Team */}
       <div className="founder__container">
         <div className="founder__header__container row">
           <div className="border__left"></div>
           <div className="border__center">
-            <p>Our Founders</p>
+            Our Team
           </div>
           <div className="border__right"></div>
         </div>
@@ -139,13 +123,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Founder */}
+      {/* Team */}
       <div className="focused__container">
         <div className="focused__header__container row">
           <div className="border__left"></div>
           <div className="border__center">
-            <p>Our Focus</p>
+            Product Categories
           </div>
           <div className="border__right"></div>
         </div>
@@ -162,33 +145,19 @@ export default function Home() {
           })}
         </div>
       </div>
-      {/* The Objective */}
+      {/* Product Benefits */}
       <div className="objective__container">
         <div className="objective__header__container row">
           <div className="border__left"></div>
           <div className="border__center">
-            <p>Our Objectives</p>
+            Why Choose Eco-Friendly Products?
           </div>
           <div className="border__right"></div>
         </div>
         <div className="objective__main__container cent">
           <div className="objective__content">
             <p>
-              The objectives of the trust are focused on various aspects of
-              education, vocational training, and environmental conservation. It
-              aims to establish and maintain centers for technical, formal, and
-              non-formal education, as well as provide vocational training
-              opportunities, especially for women and those in need.
-              Additionally, the trust is dedicated to promoting cottage
-              industries, Khadi, Gaushala, and traditional handicrafts. Its
-              primary focus lies in conserving ecology, wildlife, and natural
-              resources, while also raising awareness about sanitation and
-              providing health and medical relief where necessary. Moreover, the
-              trust engages in publishing educational materials for income
-              generation and managing higher and professional education
-              institutes. Finally, it&apos;s committed to safeguarding national
-              heritage, art, and culture, operating solely for public and
-              charitable purposes.
+              Choosing eco-friendly products isn't just good for the planet—it's good for you too. Our products are made from sustainable, non-toxic materials that are safer for your family and workspace. By using recycled and renewable resources, we help reduce landfill waste and carbon emissions. Energy-efficient solutions lower your utility bills while minimizing environmental impact. Each purchase supports ethical manufacturing practices and fair labor standards. Our biodegradable and compostable options break down naturally, leaving no harmful residue. From bamboo office supplies to solar-powered accessories, organic textiles to zero-waste packaging—every item is thoughtfully designed to enhance your life while protecting our planet. Make the switch to sustainable living and experience the perfect harmony between modern convenience and environmental responsibility.
             </p>
           </div>
         </div>
@@ -198,17 +167,17 @@ export default function Home() {
           <div className="gallery__main__header row">
             <div className="border__right"></div>
             <div className="border__center">
-              <p>Gallery</p>
+              <p>Product Gallery</p>
             </div>
             <div className="border__left"></div>
           </div>
           <div className="index__gallery__card__container row">
-            <img className="index__gallery__img" src={Empowerment} alt="" />
-            <img className="index__gallery__img" src={Health} alt="" />
-            <img className="index__gallery__img" src={Slum} alt="" />
-            <img className="index__gallery__img" src={Awareness} alt="" />
-            <img className="index__gallery__img" src={Relief} alt="" />
-            <img className="index__gallery__img" src={Plantation} alt="" />
+            <img className="index__gallery__img" src={Empowerment} alt="Eco Products" />
+            <img className="index__gallery__img" src={Health} alt="Sustainable Solutions" />
+            <img className="index__gallery__img" src={Slum} alt="Green Office" />
+            <img className="index__gallery__img" src={Awareness} alt="Natural Materials" />
+            <img className="index__gallery__img" src={Relief} alt="Recycled Products" />
+            <img className="index__gallery__img" src={Plantation} alt="Energy Efficiency" />
           </div>
           <div className="view__more__container cent">
             <Link to="/gallery" onClick={windowTop}>
@@ -219,13 +188,13 @@ export default function Home() {
       </div>
       <div className="journey cent">
         <div className="journey__item">
-          <img className="journey__img" src={JoinTeamImg} alt="" />
+          <img className="journey__img" src={JoinTeamImg} alt="Join our green movement" />
           <div className="journey__overlay col cent">
             <h1 className="journey__overlay__heading">
-              You Can Make A Difference <br /> In Someone&apos;s Life Donate Now
+              Start Your Sustainable Journey Today <br /> Shop Eco-Friendly Now
             </h1>
             <Link to="/donation">
-              <button className="journey__donate">Donate Now</button>
+              <button className="journey__donate">Shop Now</button>
             </Link>
           </div>
         </div>
