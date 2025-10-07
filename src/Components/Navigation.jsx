@@ -1,13 +1,11 @@
 import "./styles/navigation.css";
-import SwachhPariveshLogo from "../assets/NGO_Logo.png";
+import EcoHarmonyLogo from "../assets/NGO_Logo.png";
 import Hamburger from "../assets/hamburger.svg";
 import DonateHand from "../assets/donate-hand.svg";
-
 import { Link } from "react-router-dom";
 function Navigation() {
   // Hamburger Menu
   let links = document.querySelectorAll(".nav__menu__link");
-
   const hamburgerHandler = () => {
     const Hamburger = document.getElementById("hamburger__menu__btn");
     Hamburger.classList.toggle("line--active");
@@ -16,7 +14,6 @@ function Navigation() {
     nav.classList.toggle("nav__menu__container--active");
     menu.classList.toggle("nav__menu--active");
   };
-
   links.forEach((link) => {
     link.addEventListener("click", () => {
       let hamburgerIcon = document.getElementById("hamburger__icon");
@@ -34,11 +31,11 @@ function Navigation() {
           <Link to="/">
             <img
               className="logo_img"
-              src={SwachhPariveshLogo}
-              alt="Swachh Parivesh NGO"
+              src={EcoHarmonyLogo}
+              alt="EcoHarmonyCollective - Eco-Friendly Products"
             />
           </Link>
-          <h1 className="text__logo">Swachh Parivesh</h1>
+          <h1 className="text__logo">EcoHarmonyCollective</h1>
         </div>
         <div
           className="nav__hamburger__container row"
@@ -64,17 +61,17 @@ function Navigation() {
               </li>
               <li>
                 <Link className="nav__menu__link" to="/gallery">
-                  Gallery
+                  Products
                 </Link>
               </li>
               <li>
                 <Link className="nav__menu__link" to="/media">
-                  Media
+                  About
                 </Link>
               </li>
               <li>
                 <Link className="nav__menu__link desk__btn" to="/donation">
-                  Donate
+                  Shop
                   <img
                     className="donation__icon"
                     src={DonateHand}
@@ -90,5 +87,4 @@ function Navigation() {
     </div>
   );
 }
-
 export default Navigation;
