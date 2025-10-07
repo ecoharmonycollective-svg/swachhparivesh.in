@@ -1,22 +1,22 @@
 const indexPage = {
-    title: 'Swachh Parivesh Foundation | Empowering Communities',
-    description: "Discover Swachh Parivesh Foundation's initiatives in education, environment, health, and heritage preservation. Join us in making a positive impact today.",
-    keywords: 'Swachh Parivesh, NGO, Uttarakhand, India, education, environment, health, heritage preservation'
+    title: 'EcoHarmonyCollective | Eco-Friendly Home & Office Products',
+    description: "Discover EcoHarmonyCollective's sustainable products for your home and office. Shop eco-friendly solutions featuring recycled materials, energy efficiency, and green initiatives for conscious living.",
+    keywords: 'EcoHarmonyCollective, eco-friendly products, sustainable living, green products, recycled materials, energy efficient, home products, office supplies, eco business'
 }
 const donatePage = {
-    title: "Donate | Support Swachh Parivesh Foundation's Causes Today",
-    description: "Support Swachh Parivesh Foundation's initiatives in education, environment, and community health. Donate today to make a lasting difference.",
-    keywords: 'Swachh Parivesh, gallery, ngo, donate, donation'
+    title: "Shop | EcoHarmonyCollective - Sustainable Products for Every Space",
+    description: "Shop EcoHarmonyCollective's curated collection of eco-friendly products for home and office. From bamboo supplies to solar accessories, make sustainable choices today.",
+    keywords: 'shop eco-friendly, sustainable products, green shopping, eco store, natural products, EcoHarmonyCollective'
 }
 const galleryPage = {
-    title: 'Gallery',
-    description: "Stay updated with Swachh Parivesh Foundation's latest news, events, and initiatives. Explore our media gallery and press releases.",
-    keywords: 'Events, Gallery, Swachh Parivesh Foundation'
+    title: 'Products | EcoHarmonyCollective',
+    description: "Browse EcoHarmonyCollective's product gallery featuring sustainable home and office solutions. Explore our range of eco-friendly items made from recycled and renewable resources.",
+    keywords: 'Product Gallery, Eco Products, Sustainable Solutions, Green Office, EcoHarmonyCollective'
 }
 const mediaPage = {
-    title: 'Media | Swachh Parivesh Foundation - News, Updates, and Events',
-    description: "Stay updated with Swachh Parivesh Foundation's latest news, events, and initiatives. Explore our media gallery and press releases.",
-    keywords: 'News, Events, Media, Press Releases, Swachh Parivesh Foundation'
+    title: 'About | EcoHarmonyCollective - Our Mission for Sustainable Living',
+    description: "Learn about EcoHarmonyCollective's commitment to sustainable living. Discover our mission, vision, and dedication to providing eco-friendly products for a greener future.",
+    keywords: 'About Us, Mission, Vision, Sustainable Business, Green Initiative, EcoHarmonyCollective'
 }
 export default {
     indexPage,
