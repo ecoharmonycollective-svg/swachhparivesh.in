@@ -6,18 +6,12 @@ import { Link } from "react-router-dom";
 import { founder, secretary } from "../import/founder";
 import FocusedData from "../import/focused";
 import Founder from "../Components/FounderCard";
-import AboutImg from "../assets/aboutimg.jpg";
-import Slum from "../assets/Events/work-in-slums.jpg";
-import Plantation from "../assets/Events/plantation.jpg";
-import Empowerment from "../assets/Gallery/Empowerment/empowerment3.jpg";
-import Health from "../assets/Gallery/Health/health2.jpg";
-import Relief from "../assets/Gallery/Relief/relief1.jpg";
-import Awareness from "../assets/Gallery/Awareness/awareness1.jpg";
 import BodyHelmet from "../Components/BodyHelmet";
-import GirlsImg from "../assets/girls.jpg";
-import SmallChildImg from "../assets/smallChild.jpg";
-import JoinTeamImg from "../assets/Gallery/Swachta/swachta2.jpg";
 import HelmetData from "../import/BodyHelmet";
+
+// Images moved to /public/assets/ folder
+// Note: Images from public folder are referenced directly without imports
+
 export default function Home() {
   function windowTop() {
     window.scrollTo(0, 0);
@@ -33,7 +27,11 @@ export default function Home() {
         <div className="index__content__container row">
           <div className="index__content__img__item index__img__1">
             <div className="index__content__img__overlay"></div>
-            <img className="index__content__img" src={GirlsImg} alt="Sustainable Living" />
+            <img
+              className="index__content__img"
+              src="/assets/green_background.jpg"
+              alt="Sustainable Living"
+            />
           </div>
           <div className="index__content__item">
             <div className="index__content__box">
@@ -44,7 +42,7 @@ export default function Home() {
             <div className="index__content__small__img__container">
               <div className="index__content__small__img__overlay"></div>
               <img
-                src={SmallChildImg}
+                src="/assets/desk_with-laptop.jpg"
                 alt="Green initiatives"
                 className="index__content__small__img"
               />
@@ -71,7 +69,11 @@ export default function Home() {
             </div>
           </div>
           <div className="story__item story__img__container cent">
-            <img src={AboutImg} alt="About EcoHarmonyCollective" className="story__img" />
+            <img
+              src="/assets/EcoHarmony_Collective.jpg"
+              alt="About EcoHarmonyCollective"
+              className="story__img"
+            />
           </div>
         </div>
       </div>
@@ -167,20 +169,44 @@ export default function Home() {
           <div className="gallery__main__header row">
             <div className="border__right"></div>
             <div className="border__center">
-              <p>Product Gallery</p>
+              Product Gallery
             </div>
             <div className="border__left"></div>
           </div>
           <div className="index__gallery__card__container row">
-            <img className="index__gallery__img" src={Empowerment} alt="Eco Products" />
-            <img className="index__gallery__img" src={Health} alt="Sustainable Solutions" />
-            <img className="index__gallery__img" src={Slum} alt="Green Office" />
-            <img className="index__gallery__img" src={Awareness} alt="Natural Materials" />
-            <img className="index__gallery__img" src={Relief} alt="Recycled Products" />
-            <img className="index__gallery__img" src={Plantation} alt="Energy Efficiency" />
+            <img
+              src="/assets/worker_carry.jpg"
+              alt="Eco Products"
+              className="index__gallery__img"
+            />
+            <img
+              src="/assets/istockphoto-2197568960-2048x2048.jpg"
+              alt="Sustainable Solutions"
+              className="index__gallery__img"
+            />
+            <img
+              src="/assets/istockphoto-2175448985-2048x2048.jpg"
+              alt="Green Office"
+              className="index__gallery__img"
+            />
+            <img
+              src="/assets/green_background.jpg"
+              alt="Natural Materials"
+              className="index__gallery__img"
+            />
+            <img
+              src="/assets/desk_with-laptop.jpg"
+              alt="Recycled Products"
+              className="index__gallery__img"
+            />
+            <img
+              src="/assets/EcoHarmony_Collective.jpg"
+              alt="Energy Efficiency"
+              className="index__gallery__img"
+            />
           </div>
           <div className="view__more__container cent">
-            <Link to="/gallery" onClick={windowTop}>
+            <Link onClick={windowTop} to="/gallery">
               <button className="view__more__btn">View More</button>
             </Link>
           </div>
@@ -188,10 +214,14 @@ export default function Home() {
       </div>
       <div className="journey cent">
         <div className="journey__item">
-          <img className="journey__img" src={JoinTeamImg} alt="Join our green movement" />
+          <img
+            src="/assets/desk_with-laptop.jpg"
+            alt="Join our green movement"
+            className="journey__img"
+          />
           <div className="journey__overlay col cent">
             <h1 className="journey__overlay__heading">
-              Start Your Sustainable Journey Today <br /> Shop Eco-Friendly Now
+              Start Your Sustainable Journey Today - Shop Eco-Friendly Now
             </h1>
             <Link to="/donation">
               <button className="journey__donate">Shop Now</button>
